@@ -1,6 +1,6 @@
-#' Top 50 albums for every month from Jan 2000 to Jun 2021.
+#' Top 50 songs for every month from Jan 2000 to Jun 2021 from chart2000.com.
 #'
-#' A dataset containing the top 50 albums per month from January 2000 to June 2021
+#' A dataset containing the top 50 songs per month from January 2000 to June 2021
 #' according to charts from the USA, UK, Germany, France, Canada, Australia, Italy and Spain.
 #'
 #' @format A data frame with 12900 rows and 13 variables:
@@ -10,7 +10,7 @@
 #'    \item{year}{year allocated to entry, numeric, 4 digits}
 #'    \item{position}{total rank, numeric from 1 to 50}
 #'    \item{artist}{name of artist / band, character}
-#'    \item{album}{album title, character}
+#'    \item{song}{song title, character}
 #'    \item{indicativerevenue}{estimated revenue across whole music chain in thousands of dollars; numeric}
 #'    \item{us}{peak position in US in that month, numeric, contains NAs}
 #'    \item{uk}{peak position in UK in that month, numeric, contains NAs}
@@ -21,9 +21,9 @@
 #' }
 #' @source \url{https://chart2000.com/about}
 #' @examples
-#' data(albums2000)        # Lazy loading. Data becomes visible as soon as used, e. g. via str(albums2000).
+#' data(songs2000)        # Lazy loading. Data becomes visible as soon as used, e. g. via str(songs2000).
 #'
 #' ## Access file version number:
-#' attr(albums2000, "version")
-#' str(albums2000)
-"albums2000"
+#' attr(songs2000, "version")
+#' str(songs2000)
+"songs2000"
