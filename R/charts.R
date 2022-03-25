@@ -38,7 +38,7 @@
 #' @source \url{https://tsort.info}
 #'
 #' @examples
-#' data(charts)        # Lazy loading. Data becomes visible as soon as used, e. g. via str(charts).
+#' data(charts)        # Lazy loading
 #'
 #' ## Access file version number:
 #' attr(charts, "version")

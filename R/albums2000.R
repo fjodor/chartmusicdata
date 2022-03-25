@@ -21,7 +21,7 @@
 #' }
 #' @source \url{https://chart2000.com/about}
 #' @examples
-#' data(albums2000)        # Lazy loading. Data becomes visible as soon as used, e. g. via str(albums2000).
+#' data(albums2000)        # Lazy loading
 #'
 #' ## Access file version number:
 #' attr(albums2000, "version")

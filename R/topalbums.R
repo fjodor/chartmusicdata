@@ -30,7 +30,7 @@
 #' @source \url{https://tsort.info}
 #'
 #' @examples
-#' data(topalbums)        # Lazy loading. Data becomes visible as soon as used, e. g. via str(topalbums).
+#' data(topalbums)        # Lazy loading
 #'
 #' ## Access file version number:
 #' attr(topalbums, "version")

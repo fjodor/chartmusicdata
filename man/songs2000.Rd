@@ -33,7 +33,7 @@ A dataset containing the top 50 songs per month from January 2000 to June 2021
 according to charts from the USA, UK, Germany, France, Canada, Australia, Italy and Spain.
 }
 \examples{
-data(songs2000)        # Lazy loading. Data becomes visible as soon as used, e. g. via str(songs2000).
+data(songs2000)        # Lazy loading
 
 ## Access file version number:
 attr(songs2000, "version")

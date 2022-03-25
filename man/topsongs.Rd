@@ -40,7 +40,7 @@ File version "2-8-0044" included as an attribute. See Examples section.
 Note that rankings and scores are likely to change in new versions provided at \url{https://tsort.info}.
 }
 \examples{
-data(topsongs)        # Lazy loading. Data becomes visible as soon as used, e. g. via str(topsongs).
+data(topsongs)        # Lazy loading
 
 ## Access file version number:
 attr(topsongs, "version")
