@@ -2,6 +2,6 @@
 #'
 #' Datsets in this package: charts, topalbums, topsongs, albums2000, songs2000
 #'
-#' @docType package
+#' @docType _PACKAGE
 #' @name chartmusicdata
 NULL
